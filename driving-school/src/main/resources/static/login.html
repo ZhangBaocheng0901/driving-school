@@ -1,0 +1,39 @@
+<!-- src/main/resources/static/login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>驾校管理系统 - 登录</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="navbar">
+    <h1>驾校管理系统</h1>
+</div>
+
+<div class="container">
+    <h2>登录</h2>
+    <form id="login-form">
+        <div class="form-group">
+            <label for="username">用户名：</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">密码：</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="user-type">用户类型：</label>
+            <select id="user-type" name="user-type" required>
+                <option value="student">学员</option>
+                <option value="coach">教练</option>
+                <option value="admin">管理员</option>
+            </select>
+        </div>
+        <button type="submit">登录</button>
+    </form>
+</div>
+
+<script src="/js/auth.js"></script>
+</body>
+</html>
