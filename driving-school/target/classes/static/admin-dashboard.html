@@ -1,0 +1,52 @@
+<!-- src/main/resources/static/admin-dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员仪表盘</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+<div class="navbar">
+    <h1>管理员仪表盘</h1>
+    <button onclick="logout()">退出登录</button>
+</div>
+
+<div class="container">
+    <h2>学员列表</h2>
+    <table id="students-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>电话</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- 数据通过JavaScript动态加载 -->
+        </tbody>
+    </table>
+
+    <h2>创建教练账号</h2>
+    <form id="create-coach-form">
+        <div class="form-group">
+            <label for="username">用户名：</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">密码：</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="specialty">专业领域：</label>
+            <input type="text" id="specialty" name="specialty" required>
+        </div>
+        <button type="submit">创建教练</button>
+    </form>
+</div>
+
+<script src="/js/admin.js"></script>
+</body>
+</html>

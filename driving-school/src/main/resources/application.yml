@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/driving_school?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1234  # 替换为实际密码
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # 开发环境自动更新表结构

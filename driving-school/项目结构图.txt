@@ -1,0 +1,165 @@
+卷 Windows 的文件夹 PATH 列表
+卷序列号为 F269-7B6D
+C:.
+│  .gitattributes
+│  .gitignore
+│  demo.iml
+│  HELP.md
+│  mvnw
+│  mvnw.cmd
+│  pom.xml
+│  项目结构图.txt
+│  
+├─.idea
+│  │  .gitignore
+│  │  checkstyle-idea.xml
+│  │  compiler.xml
+│  │  encodings.xml
+│  │  jarRepositories.xml
+│  │  misc.xml
+│  │  vcs.xml
+│  │  workspace.xml
+│  │  
+│  ├─checkstyleidea-libs
+│  │      readme.txt
+│  │      
+│  └─inspectionProfiles
+│          Project_Default.xml
+│          
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─driving
+│  │  │          ├─config
+│  │  │          │      CorsConfig.java
+│  │  │          │      GlobalExceptionHandler.java
+│  │  │          │      SecurityConfig.java
+│  │  │          │      
+│  │  │          ├─controller
+│  │  │          │      AdminController.java
+│  │  │          │      AppointmentController.java
+│  │  │          │      AuthController.java
+│  │  │          │      CoachController.java
+│  │  │          │      StudentController.java
+│  │  │          │      VehicleController.java
+│  │  │          │      
+│  │  │          ├─drivingschool
+│  │  │          │      DrivingApplication.java
+│  │  │          │      
+│  │  │          ├─dto
+│  │  │          │  ├─request
+│  │  │          │  │      AppointmentRequest.java
+│  │  │          │  │      LoginRequest.java
+│  │  │          │  │      TimeSlotRequest.java
+│  │  │          │  │      VehicleRequest.java
+│  │  │          │  │      
+│  │  │          │  └─response
+│  │  │          │          AppointmentResponse.java
+│  │  │          │          JwtResponse.java
+│  │  │          │          StatsResponse.java
+│  │  │          │          
+│  │  │          ├─entity
+│  │  │          │      Admin.java
+│  │  │          │      Appointment.java
+│  │  │          │      Coach.java
+│  │  │          │      Student.java
+│  │  │          │      TimeSlot.java
+│  │  │          │      Vehicle.java
+│  │  │          │      
+│  │  │          ├─exception
+│  │  │          │      ConflictException.java
+│  │  │          │      CustomException.java
+│  │  │          │      InvalidRequestException.java
+│  │  │          │      ResourceNotFoundException.java
+│  │  │          │      ValidationException.java
+│  │  │          │      
+│  │  │          ├─repository
+│  │  │          │      AdminRepository.java
+│  │  │          │      AppointmentRepository.java
+│  │  │          │      CoachRepository.java
+│  │  │          │      StudentRepository.java
+│  │  │          │      VehicleRepository.java
+│  │  │          │      
+│  │  │          ├─security
+│  │  │          │      JwtAuthFilter.java
+│  │  │          │      JwtUtils.java
+│  │  │          │      SecurityConfig.java
+│  │  │          │      UserDetailsImpl.java
+│  │  │          │      
+│  │  │          └─service
+│  │  │                  AdminService.java
+│  │  │                  AppointmentService.java
+│  │  │                  AuthService.java
+│  │  │                  CoachService.java
+│  │  │                  StudentService.java
+│  │  │                  VehicleService.java
+│  │  │                  
+│  │  └─resources
+│  │      │  application.properties
+│  │      │  application.yml
+│  │      │  data.sql
+│  │      │  logback-spring.xml
+│  │      │  
+│  │      ├─db
+│  │      │  └─migration
+│  │      │          data.sql
+│  │      │          schema.sql
+│  │      │          
+│  │      ├─static
+│  │      │  │  admin-dashboard.html
+│  │      │  │  coach-dashboard.html
+│  │      │  │  login.html
+│  │      │  │  student-dashboard.html
+│  │      │  │  
+│  │      │  ├─css
+│  │      │  │      dashboard.css
+│  │      │  │      style.css
+│  │      │  │      
+│  │      │  ├─images
+│  │      │  └─js
+│  │      │          admin.js
+│  │      │          auth.js
+│  │      │          coach.js
+│  │      │          student.js
+│  │      │          vehicle.js
+│  │      │          
+│  │      └─templates
+│  └─test
+│      └─java
+│          └─com
+│              └─driving
+│                  └─drivingschool
+│                          DrivingSchoolApplicationTests.java
+│                          
+└─target
+    ├─classes
+    │  │  application.properties
+    │  │  application.yml
+    │  │  data.sql
+    │  │  logback-spring.xml
+    │  │  
+    │  ├─db
+    │  │  └─migration
+    │  │          data.sql
+    │  │          schema.sql
+    │  │          
+    │  └─static
+    │      │  admin-dashboard.html
+    │      │  coach-dashboard.html
+    │      │  login.html
+    │      │  student-dashboard.html
+    │      │  
+    │      ├─css
+    │      │      dashboard.css
+    │      │      style.css
+    │      │      
+    │      └─js
+    │              admin.js
+    │              auth.js
+    │              coach.js
+    │              student.js
+    │              vehicle.js
+    │              
+    └─generated-sources
+        └─annotations
